@@ -21,24 +21,24 @@ ingame_discordReplyMessage = "§6[§#5865F2DISCORD§6]§r §a%user%§r in reply 
 # NOTE: using an @ here can cause ping sounds ingame
 discordUserHover = "§3Discord User %user%\n§aClick to mention"
 # This message will edited in / sent when the server finished starting
-serverStarted = "Server Started!"
+serverStarted = "¡Servidor iniciado!"
 # Message to show while the server is starting
 # This will be edited to SERVER_STARTED_MSG when webhook is false
-serverStarting = "Server Starting..."
+serverStarting = "Servidor iniciando..."
 # This message will be sent when the server was stopped
-serverStopped = "Server Stopped!"
+serverStopped = "¡Servidor detenido!"
 # The message to print to discord when it was possible to detect a server crash
-serverCrash = "Server Crash Detected :thinking:"
+serverCrash = "Fallo del servidor detectado :thinking:"
 # Gets sent when an player joins
 # 
 # PLACEHOLDERS:
 # %player% - The player's name
-playerJoin = "%player% joined"
+playerJoin = "%player% se ha conectado al servidor"
 # Gets sent when an player leaves
 # 
 # PLACEHOLDERS:
 # %player% - The player's name
-playerLeave = "%player% left"
+playerLeave = "%player% se ha desconectado al servidor"
 # Gets sent when an player dies
 # 
 # PLACEHOLDERS:
@@ -49,7 +49,7 @@ playerDeath = "%player% %msg%"
 # 
 # PLACEHOLDERS:
 # %player% - The player's name
-playerTimeout = "%player% timed out!"
+playerTimeout =  "¡%player% se acabó su tiempo!"
 # Gets sent when an player finishes an advancement
 # Supports MulitLined messages using \n
 # 
@@ -57,7 +57,7 @@ playerTimeout = "%player% timed out!"
 # %player% - The player's name
 # %advName% - The advancement name
 # %advDesc% - The advancement description
-advancementMessage = "%player% just made the advancement **%advName%**\n_%advDesc%_"
+advancementMessage = "%player% ha conseguido el progreso **%advName%**\n_%advDesc%_"
 # The chat message in discord, sent from an player in-game
 # 
 # PLACEHOLDERS:
@@ -72,17 +72,17 @@ discordChatMessage = "%player%: %msg%"
 # %emote% - The reacted emote
 reactionMessage = "§6[§#5865F2DISCORD§6]§r§7 %name% reacted to your message \"§9%msg%§7\" with '%emote%'"
 # Message shown for attachments
-attachment = "Attachment"
+attachment = "Adjunto"
 # Message shown for stickers
 sticker = "Sticker"
 # Header for Embeds
 embed = "Embed"
 # Message shown for embed images
-embedImage = "Image"
+embedImage = "Imagen"
 # Message shown for embed messages
-embedMessage = "Message"
+embedMessage = "Mensaje"
 # Hover message for the bot tag ingame
-bot = "This user is an bot"
+bot = "Este usuario es un bot"
 
 # Strings about the discord commands
 [commands]
